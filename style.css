@@ -13,7 +13,7 @@ header,
 nav,
 h2,
 .main-visual,
-fotter {
+footer {
   font-family: Chalkuduster, "Bradley hand", Courier, "Segoe Print", sans-serif;
 }
 
@@ -227,4 +227,102 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+.social i {
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .social i {
+    color: green;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social i {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .social i {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .social {
+    display: none;
+  }
+  .nav-list-item {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .main-visual-text {
+    font-size: 15px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blog-item {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+  .blog-image {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .blog-text {
+    padding: 25px 10px 0 10px;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .pagination {
+    padding: 40px 0;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .instagram .sidebar-contents {
+    justify-content: center;
+  }
+
+  .instagram-box {
+    width: 45%;
+    height: auto;
+    padding-top: 45%;
+    margin: 10px;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .popular-text,
+  .popular-text:last-child,
+  .categories-text,
+  .categories-text:last-child {
+    margin-left: 10px;
+  }
 }
